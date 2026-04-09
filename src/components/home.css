@@ -12,7 +12,7 @@
   transition: 0.5s ease-in-out;
 }
 
-.slider-text {
+/* .slider-text {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -22,6 +22,22 @@
   background: rgba(0, 0, 0, 0.4);
   padding: 20px 40px;
   border-radius: 10px;
+} */
+
+.slider-text {
+  position: absolute;
+  bottom: 40px;              /* 👈 move to bottom */
+  left: 50%;
+  transform: translateX(-50%);  /* 👈 only horizontal center */
+  
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 15px 30px;
+  border-radius: 10px;
+  bottom: 20px;
+  backdrop-filter: blur(5px);
+
 }
 
 .slider-text h1 {
@@ -36,5 +52,57 @@
 
   .slider-text h1 {
     font-size: 24px;
+  }
+}
+
+/* ===== Officials Section ===== */
+
+.officials-section {
+  padding: 50px 20px;
+  text-align: center;
+  background: #f5f5f5;
+}
+
+.section-title {
+  font-size: 28px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.officials-container {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.official-card {
+  width: 220px;
+}
+
+.official-card img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+.official-card h3 {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.official-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .officials-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
   }
 }
