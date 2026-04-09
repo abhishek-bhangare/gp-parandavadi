@@ -3,19 +3,19 @@ import "./home.css";
 
 const slides = [
   {
-    image: "/images/gp_img_1.jpg",
+    image: "/gp-parandavadi/images/gp_img_1.jpg",
     text: "Welcome to Our Website",
   },
   {
-    image: "/images/gp_img_2.jpg",
+    image: "/gp-parandavadi/images/gp_img_2.jpg",
     text: "We Build Amazing Apps",
   },
   {
-    image: "/images/gp_img_3.jpg",
+    image: "/gp-parandavadi/images/gp_img_3.jpg",
     text: "Your Growth is Our Goal",
   },
   {
-    image: "/images/gp_img_4.jpg",
+    image: "/gp-parandavadi/images/gp_img_4.jpg",
     text: "Innovative Solutions",
   },
 ];
