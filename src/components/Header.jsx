@@ -34,7 +34,7 @@ const Header = () => {
       {/* Header */}
 <div className="main-header">
   <img
-    src="/images/header_logo_black.png"
+    src={process.env.PUBLIC_URL +"/images/header_logo_black.png"}
     alt="Header Logo"
     className="header-logo"
   />
