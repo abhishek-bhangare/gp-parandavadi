@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/gp-parandavadi/static/css/main.82c8eae5.css",
-    "main.js": "/gp-parandavadi/static/js/main.cfc29c89.js",
+    "main.css": "/gp-parandavadi/static/css/main.7e55b0bb.css",
+    "main.js": "/gp-parandavadi/static/js/main.2f23e3d7.js",
     "static/js/453.65328c6e.chunk.js": "/gp-parandavadi/static/js/453.65328c6e.chunk.js",
     "index.html": "/gp-parandavadi/index.html",
-    "main.82c8eae5.css.map": "/gp-parandavadi/static/css/main.82c8eae5.css.map",
-    "main.cfc29c89.js.map": "/gp-parandavadi/static/js/main.cfc29c89.js.map",
+    "main.7e55b0bb.css.map": "/gp-parandavadi/static/css/main.7e55b0bb.css.map",
+    "main.2f23e3d7.js.map": "/gp-parandavadi/static/js/main.2f23e3d7.js.map",
     "453.65328c6e.chunk.js.map": "/gp-parandavadi/static/js/453.65328c6e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82c8eae5.css",
-    "static/js/main.cfc29c89.js"
+    "static/css/main.7e55b0bb.css",
+    "static/js/main.2f23e3d7.js"
   ]
 }
