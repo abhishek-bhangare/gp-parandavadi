@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/gp-parandavadi/static/css/main.91ac92dc.css",
-    "main.js": "/gp-parandavadi/static/js/main.1451552f.js",
-    "static/js/453.65328c6e.chunk.js": "/gp-parandavadi/static/js/453.65328c6e.chunk.js",
-    "index.html": "/gp-parandavadi/index.html",
-    "main.91ac92dc.css.map": "/gp-parandavadi/static/css/main.91ac92dc.css.map",
-    "main.1451552f.js.map": "/gp-parandavadi/static/js/main.1451552f.js.map",
-    "453.65328c6e.chunk.js.map": "/gp-parandavadi/static/js/453.65328c6e.chunk.js.map"
+    "main.css": "/static/css/main.91ac92dc.css",
+    "main.js": "/static/js/main.3264637d.js",
+    "static/js/453.65328c6e.chunk.js": "/static/js/453.65328c6e.chunk.js",
+    "index.html": "/index.html",
+    "main.91ac92dc.css.map": "/static/css/main.91ac92dc.css.map",
+    "main.3264637d.js.map": "/static/js/main.3264637d.js.map",
+    "453.65328c6e.chunk.js.map": "/static/js/453.65328c6e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.91ac92dc.css",
-    "static/js/main.1451552f.js"
+    "static/js/main.3264637d.js"
   ]
 }
