@@ -1,0 +1,158 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans Devanagari", sans-serif;
+}
+
+/* Top Bar */
+.top-bar {
+  background: #f5f5f5;
+  text-align: center;
+  padding: 6px;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Header */
+.main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  position: relative;
+}
+
+/* Logo */
+.header-logo {
+  width: 90%;
+  max-width: 900px;
+  margin-right:50px;
+  height: auto;
+}
+
+/* Hamburger */
+.hamburger {
+  display: none;
+  position: absolute;
+  right: 15px;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* Navbar */
+.navbar {
+  background: #e9e9e9;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Desktop Menu */
+.navbar > ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.navbar > ul > li {
+  position: relative;
+  padding: 14px 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbar > ul > li:hover {
+  background: #dcdcdc;
+}
+
+/* Dropdown */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  min-width: 220px;
+  box-shadow: 0px 6px 12px rgba(0,0,0,0.15);
+  border-radius: 4px;
+  z-index: 1000;
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+.dropdown-menu li {
+  padding: 10px 15px;
+  display: block;
+  white-space: nowrap;
+}
+
+.dropdown-menu li:hover {
+  background: #f1f1f1;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+
+  /* Show hamburger */
+  .hamburger {
+    display: block;
+  }
+
+  /* Navbar hidden by default */
+  .navbar {
+    display: none;
+  }
+
+  /* When active */
+  .navbar.active {
+    display: block;
+    animation: slideDown 0.3s ease;
+  }
+
+  /* Vertical menu */
+  .navbar > ul {
+    flex-direction: column;
+  }
+
+  .navbar > ul > li {
+    border-bottom: 1px solid #ccc;
+    padding: 14px;
+    background: #f9f9f9;
+  }
+
+  /* Dropdown mobile */
+  .dropdown-menu {
+    position: static;
+    box-shadow: none;
+    background: #ffffff;
+    margin-top: 5px;
+  }
+
+  .dropdown-menu li {
+    padding-left: 20px;
+    background: #f1f1f1;
+  }
+
+  /* Slide animation */
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
